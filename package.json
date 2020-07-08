@@ -1,15 +1,49 @@
 {
-  "name": "vue_package",
-  "version": "0.1.0",
-  "private": true,
+  "name": "vue_package_money",
+  "version": "1.0.0",
+  "description": "This package is vue components to convert money naira (₦) --> thai (฿)",
+  "author": "Thirapa",
+  "license": "MIT",
+  "keywords": [
+    "vue",
+    "npm",
+    "component",
+    "money",
+    "package"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thirapa/vue_package_money.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thirapa/vue_package_money/issues"
+  },
+  "homepage": "https://github.com/thirapa/vue_package_money#readme",
+  "main": "dist/vue-money.ssr.js",
+  "module": "dist/vue-money.esm.js",
+  "unpkg": "dist/vue-money.min.js",
+  "files": [
+    "dist/*",
+    "src/**/*.vue"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "build": "cross-env NODE_ENV=production rollup --config config/rollup.config.js",
+    "build:ssr": "cross-env NODE_ENV=production rollup --config config/rollup.config.js --format cjs",
+    "build:es": "cross-env NODE_ENV=production rollup --config config/rollup.config.js --format es",
+    "build:unpkg": "cross-env NODE_ENV=production rollup --config config/rollup.config.js --format iife"
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "rollup-plugin-buble": "^0.19.8",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-replace": "^2.2.0",
+    "rollup-plugin-terser": "^6.1.0",
+    "rollup-plugin-vue": "^5.1.9",
+    "text-mask-addons": "^3.8.0",
+    "vue": "^2.6.11",
+    "vue-text-mask": "^6.1.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.4.0",
