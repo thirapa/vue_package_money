@@ -1,6 +1,6 @@
 {
   "name": "vue_package_money",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This package is vue components to convert money naira (₦) --> thai (฿)",
   "author": "Thirapa",
   "license": "MIT",
