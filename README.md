@@ -25,7 +25,6 @@ npm install rollup-plugin-commonjs --save   //(6)
 npm install rollup-plugin-replace --save    //(7) 
 npm install rollup-plugin-terser --save     //(8)
 npm install rollup-plugin-vue --save        //(9)
-npm
 ```
 (1) [Rollup.js](https://rollupjs.org/guide/en/)  
 (2) [Package text-mask-addons](https://www.npmjs.com/package/text-mask-addons)  
