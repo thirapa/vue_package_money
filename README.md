@@ -52,7 +52,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## Acknowledgment
 
-Thank you so much, for knowledge to create componen ♥
+Thank you so much for knowledge to create component ♥
 
 [Publishing a Vue component to NPM](https://bowlsofsalt.com/publishing-a-vue-component-to-npm/)
 
