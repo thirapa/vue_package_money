@@ -35,7 +35,7 @@ npm
 (6) [rollup-plugin-commonjs](https://www.npmjs.com/package/rollup-plugin-commonjs)  
 (7) [rollup-plugin-replace](https://www.npmjs.com/package/rollup-plugin-replace)     
 (8) [rollup-plugin-terser](https://www.npmjs.com/package/rollup-plugin-terser)  
-(9) [install rollup-plugin-vue](https://www.npmjs.com/package/rollup-plugin-vue)
+(9) [rollup-plugin-vue](https://www.npmjs.com/package/rollup-plugin-vue)
 
 ## Compiles and hot-reloads for development
 ```
