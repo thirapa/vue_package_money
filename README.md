@@ -49,3 +49,10 @@ npm run build
 ## Customize configuration
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## Acknowledgment
+
+Thank you so much, for knowledge to create componen ♥
+
+[Publishing a Vue component to NPM](https://bowlsofsalt.com/publishing-a-vue-component-to-npm/)
+
