@@ -29,7 +29,7 @@ npm
 ```
 (1) [Rollup.js](https://rollupjs.org/guide/en/)  
 (2) [Package text-mask-addons](https://www.npmjs.com/package/text-mask-addons)  
-(3) [Package vue-text-mask](https://github.com/text-mask/text-mask/blob/master/componentDocumentation.md#readme)    
+(3) [Package vue-text-mask](https://www.npmjs.com/package/vue-text-mask)    
 (4) [Package vue-sfc-rollup](https://github.com/team-innovation/vue-sfc-rollup)  
 (5) [rollup-plugin-buble](https://www.npmjs.com/package/rollup-plugin-buble)     
 (6) [rollup-plugin-commonjs](https://www.npmjs.com/package/rollup-plugin-commonjs)  
